@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e5eaae-c746-46f1-b34d-53ef4dc0975a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ContactDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/GetAllContactsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/GetAllContactsTestsOkHttp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/okhttp/DeleteContactByIDOkHttp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/LoginTestsOkHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/LoginTestsOkHttp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +65,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.GetAllContactsTestsOkHttp.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.GetAllContactsTestsOkHttp.getAllContactsSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.GetAllContactsTestsOkHttp.getAllContactsWrongToken.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LoginTestsOkHttp.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LoginTestsOkHttp.loginSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.DeleteContactByIDOkHttp.deleteContactByIdNotFound.executor": "Run",
+    "Gradle.DeleteContactByIDOkHttp.deleteContactByIdSuccess.executor": "Run",
+    "Gradle.DeleteContactByIDOkHttp.deleteContactByIdWrongToken.executor": "Run",
+    "Gradle.GetAllContactsTestsOkHttp.executor": "Run",
+    "Gradle.GetAllContactsTestsOkHttp.getAllContactsSuccess.executor": "Run",
+    "Gradle.GetAllContactsTestsOkHttp.getAllContactsWrongToken.executor": "Run",
+    "Gradle.LoginTestsOkHttp.executor": "Run",
+    "Gradle.LoginTestsOkHttp.loginSuccess.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.GetAllContactsTestsOkHttp.getAllContactsSuccess">
-    <configuration name="GetAllContactsTestsOkHttp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RunManager" selected="Gradle.Tests in 'okhttp'">
+    <configuration name="DeleteContactByIDOkHttp.deleteContactByIdNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -93,7 +94,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.GetAllContactsTestsOkHttp&quot;" />
+            <option value="&quot;okhttp.DeleteContactByIDOkHttp.deleteContactByIdNotFound&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteContactByIDOkHttp.deleteContactByIdSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;okhttp.DeleteContactByIDOkHttp.deleteContactByIdSuccess&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteContactByIDOkHttp.deleteContactByIdWrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;okhttp.DeleteContactByIDOkHttp.deleteContactByIdWrongToken&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,7 +177,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GetAllContactsTestsOkHttp.getAllContactsWrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'okhttp'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,55 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.GetAllContactsTestsOkHttp.getAllContactsWrongToken&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginTestsOkHttp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;okhttp.LoginTestsOkHttp&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="LoginTestsOkHttp.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;okhttp.LoginTestsOkHttp.loginSuccess&quot;" />
+            <option value="&quot;okhttp.*&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'okhttp'" />
+        <item itemvalue="Gradle.DeleteContactByIDOkHttp.deleteContactByIdSuccess" />
+        <item itemvalue="Gradle.DeleteContactByIDOkHttp.deleteContactByIdNotFound" />
+        <item itemvalue="Gradle.DeleteContactByIDOkHttp.deleteContactByIdWrongToken" />
         <item itemvalue="Gradle.GetAllContactsTestsOkHttp.getAllContactsSuccess" />
-        <item itemvalue="Gradle.GetAllContactsTestsOkHttp.getAllContactsWrongToken" />
-        <item itemvalue="Gradle.GetAllContactsTestsOkHttp" />
-        <item itemvalue="Gradle.LoginTestsOkHttp" />
-        <item itemvalue="Gradle.LoginTestsOkHttp.loginSuccess" />
       </list>
     </recent_temporary>
   </component>
