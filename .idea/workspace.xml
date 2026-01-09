@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e5eaae-c746-46f1-b34d-53ef4dc0975a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/LoginTestsRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/okhttp/AddContactTestsOkHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/okhttp/AddContactTestsOkHttp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +78,8 @@
     "Gradle.GetAllContactsTestsOkHttp.getAllContactsWrongToken.executor": "Run",
     "Gradle.LoginTestsOkHttp.executor": "Run",
     "Gradle.LoginTestsOkHttp.loginSuccess.executor": "Run",
+    "Gradle.LoginTestsRA.loginSuccess.executor": "Run",
+    "Gradle.LoginTestsRA.loginWrongEmail.executor": "Run",
     "Gradle.RegistrationTestsOkhttp.executor": "Run",
     "Gradle.Tests in 'okhttp'.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +87,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.AddContactTestsOkHttp">
+  <component name="RunManager" selected="Gradle.LoginTestsRA">
     <configuration name="AddContactTestsOkHttp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -108,7 +112,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AddContactTestsOkHttp.addNewContactDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -121,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.AddContactTestsOkHttp.addNewContactDuplicate&quot;" />
+            <option value="&quot;restassured.LoginTestsRA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,7 +136,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeleteContactByIDOkHttp.deleteContactByIdSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.DeleteContactByIDOkHttp.deleteContactByIdSuccess&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginSuccess&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +160,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsOkhttp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.RegistrationTestsOkhttp&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,7 +184,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'okhttp'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTestsRA.loginWrongEmailFormat" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;okhttp.*&quot;" />
+            <option value="&quot;restassured.LoginTestsRA.loginWrongEmailFormat&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTestsRA" />
+        <item itemvalue="Gradle.LoginTestsRA.loginWrongEmailFormat" />
+        <item itemvalue="Gradle.LoginTestsRA.loginWrongEmail" />
+        <item itemvalue="Gradle.LoginTestsRA.loginSuccess" />
         <item itemvalue="Gradle.AddContactTestsOkHttp" />
-        <item itemvalue="Gradle.AddContactTestsOkHttp.addNewContactDuplicate" />
-        <item itemvalue="Gradle.RegistrationTestsOkhttp" />
-        <item itemvalue="Gradle.Tests in 'okhttp'" />
-        <item itemvalue="Gradle.DeleteContactByIDOkHttp.deleteContactByIdSuccess" />
       </list>
     </recent_temporary>
   </component>

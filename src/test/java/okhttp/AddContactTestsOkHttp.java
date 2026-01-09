@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.util.Random;
+
 
 public class AddContactTestsOkHttp {
 
@@ -39,6 +39,7 @@ public class AddContactTestsOkHttp {
                 .build();
 
         Response response = client.newCall(request).execute();
+
         Assert.assertTrue(response.isSuccessful());
         Assert.assertEquals(response.code(),200);
 
@@ -68,6 +69,7 @@ public class AddContactTestsOkHttp {
                 .build();
 
         Response response = client.newCall(request).execute();
+
         Assert.assertFalse(response.isSuccessful());
         Assert.assertEquals(response.code(),400);
 
