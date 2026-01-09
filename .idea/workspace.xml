@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e5eaae-c746-46f1-b34d-53ef4dc0975a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/RegistrationTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTestsRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +74,9 @@
     "Gradle.GetAllContactsTestsOkHttp.executor": "Run",
     "Gradle.GetAllContactsTestsOkHttp.getAllContactsSuccess.executor": "Run",
     "Gradle.GetAllContactsTestsOkHttp.getAllContactsWrongToken.executor": "Run",
+    "Gradle.GetAllContactsTestsRA.getAllContactsSuccess.executor": "Run",
+    "Gradle.GetAllContactsTestsRA.getAllContactsWrongToken.executor": "Run",
+    "Gradle.GetAllContactsTestsRA.getAllContactsWrongToken2.executor": "Run",
     "Gradle.LoginTestsOkHttp.executor": "Run",
     "Gradle.LoginTestsOkHttp.loginSuccess.executor": "Run",
     "Gradle.LoginTestsRA.executor": "Run",
@@ -91,8 +94,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.RegistrationTestsRA">
-    <configuration name="LoginTestsRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GetAllContactsTestsRA.getAllContactsWrongToken2">
+    <configuration name="GetAllContactsTestsRA.getAllContactsSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +108,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.LoginTestsRA&quot;" />
+            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsSuccess&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetAllContactsTestsRA.getAllContactsWrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsWrongToken&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetAllContactsTestsRA.getAllContactsWrongToken2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsWrongToken2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,54 +181,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;restassured.RegistrationTestsRA&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTestsRA.registrationSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA.registrationSuccess&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTestsRA.registrationWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA.registrationWrongEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsWrongToken2" />
+        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsWrongToken" />
+        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsSuccess" />
         <item itemvalue="Gradle.RegistrationTestsRA" />
         <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongPassword" />
-        <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongEmail" />
-        <item itemvalue="Gradle.RegistrationTestsRA.registrationSuccess" />
-        <item itemvalue="Gradle.LoginTestsRA" />
       </list>
     </recent_temporary>
   </component>
