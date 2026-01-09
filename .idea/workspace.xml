@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e5eaae-c746-46f1-b34d-53ef4dc0975a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/GetAllContactsTestsRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restassured/DeleteContactByIdRA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +71,8 @@
     "Gradle.DeleteContactByIDOkHttp.deleteContactByIdNotFound.executor": "Run",
     "Gradle.DeleteContactByIDOkHttp.deleteContactByIdSuccess.executor": "Run",
     "Gradle.DeleteContactByIDOkHttp.deleteContactByIdWrongToken.executor": "Run",
+    "Gradle.DeleteContactByIdRA.deleteContactByID.executor": "Run",
+    "Gradle.DeleteContactByIdRA.deleteContactByIDSuccess2.executor": "Run",
     "Gradle.GetAllContactsTestsOkHttp.executor": "Run",
     "Gradle.GetAllContactsTestsOkHttp.getAllContactsSuccess.executor": "Run",
     "Gradle.GetAllContactsTestsOkHttp.getAllContactsWrongToken.executor": "Run",
@@ -94,8 +96,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.GetAllContactsTestsRA.getAllContactsWrongToken2">
-    <configuration name="GetAllContactsTestsRA.getAllContactsSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DeleteContactByIdRA">
+    <configuration name="DeleteContactByIdRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsSuccess&quot;" />
+            <option value="&quot;restassured.DeleteContactByIdRA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +121,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GetAllContactsTestsRA.getAllContactsWrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteContactByIdRA.deleteContactByID" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +134,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;restassured.GetAllContactsTestsRA.getAllContactsWrongToken&quot;" />
+            <option value="&quot;restassured.DeleteContactByIdRA.deleteContactByID&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteContactByIdRA.deleteContactByIDSuccess2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;restassured.DeleteContactByIdRA.deleteContactByIDSuccess2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteContactByIdRA.deleteContactByIDWrongToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;restassured.DeleteContactByIdRA.deleteContactByIDWrongToken&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,61 +217,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTestsRA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTestsRA.registrationWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;restassured.RegistrationTestsRA.registrationWrongPassword&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteContactByIdRA" />
+        <item itemvalue="Gradle.DeleteContactByIdRA.deleteContactByIDWrongToken" />
+        <item itemvalue="Gradle.DeleteContactByIdRA.deleteContactByIDSuccess2" />
+        <item itemvalue="Gradle.DeleteContactByIdRA.deleteContactByID" />
         <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsWrongToken2" />
-        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsWrongToken" />
-        <item itemvalue="Gradle.GetAllContactsTestsRA.getAllContactsSuccess" />
-        <item itemvalue="Gradle.RegistrationTestsRA" />
-        <item itemvalue="Gradle.RegistrationTestsRA.registrationWrongPassword" />
       </list>
     </recent_temporary>
   </component>
